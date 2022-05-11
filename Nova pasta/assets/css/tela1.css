@@ -1,0 +1,184 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.xs {
+  position: relative;
+  left: -7px;
+}
+
+.barra-progresso {
+  width: 324px;
+  height: 80px;
+  margin: auto;
+  background-image: url("../img/barra1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.bar-progress {
+  -webkit-box-shadow: -3px -8px 17px 5px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 17px 5px rgba(0, 0, 0, 0.08);
+  width: 450px;
+  margin: auto;
+}
+
+.bar-progress .passo-a-passo {
+  width: 367px;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  top: -30px;
+  text-align: center;
+}
+
+.bar-progress .passo-a-passo .texto-etapas {
+  color: #9C9B99;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar-progress .passo-a-passo .active {
+  color: #C83D2F;
+}
+
+#basic-addon2 {
+  font-size: 14px;
+}
+
+.pre-fixed-name {
+  width: 50px !important;
+  margin-right: 7px;
+  border: 1px solid #E5E5E5;
+  border-radius: 2px;
+  padding-left: 9px;
+}
+
+.pre-fixed-name:focus {
+  border: 1px solid #E5E5E5 !important;
+  border-radius: 2px;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+}
+
+.formulario {
+  padding: 0 60px;
+}
+
+.formulario label {
+  color: #9C9B99;
+  font-size: 14px;
+}
+
+.formulario span {
+  color: #9C9B99;
+}
+
+.formulario input {
+  border-radius: 2px;
+  height: 46px;
+  width: 325px;
+  color: #9C9B99;
+}
+
+.formulario input:focus {
+  border-color: none;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.iterrogacao-icon {
+  background-color: #adb5bd;
+  color: #495057;
+  padding: 5px 15px;
+  border-radius: 2px;
+  margin-top: 5px;
+  opacity: 0;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  position: fixed;
+  top: 58%;
+  z-index: 999;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+}
+
+.form-check {
+  margin: auto;
+  background-color: #F3F3F3 !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-check input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 5px #ccc;
+          box-shadow: 0 0 5px #ccc;
+  background-color: #fff;
+  position: relative;
+  left: -21px;
+}
+
+.form-check .novidades {
+  font-size: 11px;
+  color: #9C9B99;
+  line-height: 13px;
+  position: relative;
+  left: -12px;
+}
+
+.form-check .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 53px;
+  width: 116px;
+  border-radius: 2px;
+  font-size: 16px;
+  background-color: #707070;
+  color: #fff;
+}
+
+input:checked {
+  all: unset;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/check.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+}
+
+.marck-check {
+  position: relative;
+}
+
+.telefone {
+  width: 170px !important;
+}
+/*# sourceMappingURL=tela1.css.map */
